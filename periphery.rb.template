@@ -1,0 +1,13 @@
+cask 'periphery' do
+  version '__VERSION__'
+  sha256 '__SHA256__'
+  url "https://github.com/peripheryapp/periphery-release/releases/download/#{version}/periphery-v#{version}.zip"
+  name 'Periphery'
+  homepage 'https://peripheryapp.com'
+  binary 'periphery'
+  depends_on macos: '>= :yosemite'
+
+  zap trash: [
+    '~/Library/Caches/com.peripheryapp.periphery'
+  ]
+end
