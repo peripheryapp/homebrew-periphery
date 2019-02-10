@@ -1,9 +1,9 @@
 cask 'periphery' do
   version '__VERSION__'
   sha256 '__SHA256__'
-  url "https://github.com/peripheryapp/releases/releases/download/#{version}/periphery-v#{version}.zip"
+  url "https://github.com/peripheryapp/periphery/releases/download/#{version}/periphery-v#{version}.zip"
   name 'Periphery'
-  homepage 'https://peripheryapp.com'
+  homepage 'https://github.com/peripheryapp/periphery'
   binary 'periphery'
   depends_on macos: '>= :yosemite'
 
