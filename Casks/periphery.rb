@@ -1,13 +1,14 @@
 cask 'periphery' do
-  version '1.7.1'
-  sha256 'a799cdfe7398df430700c1aabbfece1e07e2d843ee05f414760941a8361b2eee'
+  version '1.8.0'
+  sha256 '9f40d2b5a0380b1a8f6aab8199b0ffd2dbd393c9f54a2c683c69867d1116d36b'
   url "https://github.com/peripheryapp/periphery/releases/download/#{version}/periphery-v#{version}.zip"
   name 'Periphery'
   homepage 'https://github.com/peripheryapp/periphery'
   binary 'periphery'
-  depends_on macos: '>= :yosemite'
+  depends_on macos: '>= 10.15'
 
-  zap trash: [
+  zap delete: [
+    '~/Library/Caches/com.github.peripheryapp',
     '~/Library/Caches/com.peripheryapp.periphery'
   ]
 end
