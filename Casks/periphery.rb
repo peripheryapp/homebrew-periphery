@@ -1,6 +1,6 @@
 cask 'periphery' do
-  version '2.8.2'
-  sha256 'a03e70124f67d47bbdf95d7c218fe02157b5bb70556d48c052b769e637b27194'
+  version '2.8.3'
+  sha256 'fa72b0eec964bce624c99ba29eb6b9aa50405ba2ed8d72cb6699b9d45c1b0052'
   url "https://github.com/peripheryapp/periphery/releases/download/#{version}/periphery-v#{version}.zip"
   name 'Periphery'
   homepage 'https://github.com/peripheryapp/periphery'
