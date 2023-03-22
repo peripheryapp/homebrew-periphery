@@ -1,6 +1,6 @@
 # Periphery Homebrew
 
-This is the official homebrew repository for https://peripheryapp.com.
+This is the official homebrew repository for https://github.com/peripheryapp/periphery.
 
 ## Installation
 
@@ -13,5 +13,5 @@ brew cask install periphery
 
 ```
 brew update
-brew cask upgrade periphery
+brew upgrade periphery
 ```
