@@ -4,6 +4,7 @@ cask 'periphery' do
   url "https://github.com/peripheryapp/periphery/releases/download/#{version}/periphery-#{version}.zip"
   name 'Periphery'
   homepage 'https://github.com/peripheryapp/periphery'
+  deprecate! date: '2026-06-16', because: 'it is now available in Homebrew core; install it with `brew install periphery`'
   binary 'periphery'
   depends_on macos: :catalina
 
