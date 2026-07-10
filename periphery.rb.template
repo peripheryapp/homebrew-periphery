@@ -5,7 +5,7 @@ cask 'periphery' do
   name 'Periphery'
   homepage 'https://github.com/peripheryapp/periphery'
   binary 'periphery'
-  depends_on macos: '>= :catalina'
+  depends_on macos: :catalina
 
   zap delete: [
     '~/Library/Caches/com.github.peripheryapp',
